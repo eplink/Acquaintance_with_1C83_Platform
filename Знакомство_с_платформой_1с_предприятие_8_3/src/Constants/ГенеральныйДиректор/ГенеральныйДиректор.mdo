@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d168b54-66bd-44ad-962d-93374d3196e7">
+  <producedTypes>
+    <managerType typeId="ac649e7e-b3d9-45e8-9c79-7954050e11dd" valueTypeId="51c08738-e2c0-42de-9553-515df2c7f6c4"/>
+    <valueManagerType typeId="d8e170de-2a88-40f3-889e-d6f81897b495" valueTypeId="be174539-706b-4361-a7da-717a4192ead3"/>
+    <valueKeyType typeId="d4a10ca2-2555-4199-91f9-5dfeb61d10a7" valueTypeId="e05d4a5f-f76d-4349-88c6-cdf7f42adeaa"/>
+  </producedTypes>
+  <name>ГенеральныйДиректор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генеральный директор</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

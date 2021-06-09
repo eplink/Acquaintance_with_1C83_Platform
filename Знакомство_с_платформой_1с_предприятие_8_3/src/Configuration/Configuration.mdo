@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Знакомство с платформой 1С:Предприятие 8.3</value>
   </synonym>
+  <comment>Учебное приложение по курсу </comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8fa2e508-a491-406b-800a-146dd20c348b"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e2ade620-d40c-4f7c-85af-18d5c88c3a63"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bc06b6a5-f7db-47f4-8ee5-8218832c844c"/>
@@ -34,4 +35,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.ИНН</constants>
+  <constants>Constant.ГенеральныйДиректор</constants>
 </mdclass:Configuration>
