@@ -38,4 +38,12 @@
   <constants>Constant.НазваниеОрганизации</constants>
   <constants>Constant.ИНН</constants>
   <constants>Constant.ГенеральныйДиректор</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Учреждения</catalogs>
+  <catalogs>Catalog.Специальности</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <enums>Enum.ВидыПриемаНаРаботу</enums>
 </mdclass:Configuration>

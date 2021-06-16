@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e629effc-440c-44ca-8068-b48c2f0559ac">
+  <producedTypes>
+    <objectType typeId="2b1cf4c3-b151-4ea4-9289-e8cb1aa93b47" valueTypeId="d2c9c1a6-e56e-4b5d-938d-8dcbda84a24d"/>
+    <refType typeId="324db095-82eb-4f83-b330-41394d5b9bc1" valueTypeId="7226ae2a-4051-4b1d-8aeb-3c9ad0b47913"/>
+    <selectionType typeId="5f3f489f-d31f-41b4-aaf6-acbc5bbd2831" valueTypeId="72be5913-30be-4602-8e60-23c9c5108d3f"/>
+    <listType typeId="511bb1e2-3cef-45d5-a1c1-b0b1f9b6db68" valueTypeId="6b0e1f44-ac6b-49be-9a21-2f154524297e"/>
+    <managerType typeId="9dac50fd-f4dc-4614-a427-9dfa93f73c47" valueTypeId="75254c0a-bb57-484b-8ae3-26f667779e62"/>
+  </producedTypes>
+  <name>Специальности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специальности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Специальности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Специальности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Специальность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Специальности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

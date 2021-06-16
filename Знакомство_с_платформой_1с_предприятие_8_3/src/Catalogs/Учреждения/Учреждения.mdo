@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7943d124-9997-478d-8a61-ba0591667b46">
+  <producedTypes>
+    <objectType typeId="536a1d13-5fdb-410d-9859-eab3d34b85b0" valueTypeId="31012b32-e116-4634-8a49-40f836209f16"/>
+    <refType typeId="9ed714cc-f6ea-43fc-ab89-9844fcb93b85" valueTypeId="5e8b185a-a09f-435d-935d-e56029a6eb58"/>
+    <selectionType typeId="4b2ad516-9a3e-4d1b-9f22-39e6f362007b" valueTypeId="af1e160d-98c5-46cc-b9bb-7e48acbfef94"/>
+    <listType typeId="8ecb99d6-e878-484c-8ab6-bf4eb48e4d5f" valueTypeId="f46201a2-90d3-4528-8b0d-4c7045980ab1"/>
+    <managerType typeId="70805275-3d1c-45fe-9e83-03ba18727a12" valueTypeId="fa1940f4-d1b8-4a70-aa83-3e85cd30ebcd"/>
+  </producedTypes>
+  <name>Учреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учреждения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Учреждения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Учреждения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учебное заведение</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Учебные заведения</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
