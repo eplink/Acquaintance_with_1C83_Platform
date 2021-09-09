@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5aed1481-7ea5-46fc-8ba8-4d890c796332">
+  <producedTypes>
+    <objectType typeId="8a19ea6e-bf82-43d7-945f-c4061751dd1e" valueTypeId="86816009-be34-48a3-827d-d6278d2b98e0"/>
+    <refType typeId="72b799b1-6aa7-4948-9fe0-454bc4f0b66c" valueTypeId="3453100a-c7a8-4dfd-a76d-8421320cd1f3"/>
+    <selectionType typeId="610a890f-366b-4a21-a67f-e1aacde1e92a" valueTypeId="e582356d-d906-4289-bd69-f79bdd45e910"/>
+    <listType typeId="1374b1ca-7d62-493f-8dde-13ffb9fb6dff" valueTypeId="b2084dcf-d7b7-41ee-9e15-fb55b11bbb7b"/>
+    <managerType typeId="25165ef6-9c71-402e-b0ce-f4bd0f9bceb0" valueTypeId="dd6f595d-9cd4-4fa6-8575-7a73a2a79d41"/>
+  </producedTypes>
+  <name>РасходДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списания денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходДенег.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Списание денежных средств</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Списания денежных средств</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>6</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3f18a080-c846-4359-9635-0dbcf6bafc0b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9dcea7b9-e0ed-4421-9636-75eb8af241d0">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.РасходДенег.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f48fd5f-586f-4156-ac01-57fb9e904550">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

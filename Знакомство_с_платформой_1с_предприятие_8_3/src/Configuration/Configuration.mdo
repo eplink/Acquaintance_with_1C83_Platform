@@ -46,7 +46,11 @@
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Скидка</catalogs>
+  <documents>Document.РасходДенег</documents>
+  <documents>Document.ПриходДенег</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидыПриемаНаРаботу</enums>
   <enums>Enum.КачествоНоменклатуры</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
+  <enums>Enum.СпособОплаты</enums>
 </mdclass:Configuration>
