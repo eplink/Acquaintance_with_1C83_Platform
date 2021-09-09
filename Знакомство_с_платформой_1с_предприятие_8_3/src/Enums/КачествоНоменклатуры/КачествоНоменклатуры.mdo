@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d743808b-c32a-4d76-9755-adda89b87f52">
+  <producedTypes>
+    <refType typeId="be077c71-6fb8-428e-9c92-1ffb0b76405d" valueTypeId="c34ba35a-8048-43b3-811f-ae8d3f6bfb07"/>
+    <listType typeId="c28c8d7f-be64-4b81-875a-2ce9bbfeeae4" valueTypeId="7942af2b-6576-48e4-bdc7-af0a19b63a6c"/>
+    <managerType typeId="a65cccff-1b0b-4352-a3ee-dda3804595ce" valueTypeId="251759a0-073e-46b6-8611-ecfa3499ddbb"/>
+  </producedTypes>
+  <name>КачествоНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Качество номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a5761762-704c-4e86-be3e-9ff747f25514">
+    <name>ВысокоеКачество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокое качество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9f1ac7a-307e-4d07-a6c0-1e76eba39c1c">
+    <name>ОбычноеКачество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычное качество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32e63a68-adb4-4bff-90e1-18558f059921">
+    <name>НизкоеКачество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкое качество</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

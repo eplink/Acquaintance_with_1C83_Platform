@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b5d42b-0458-4718-a186-8394dad23cad">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b5d42b-0458-4718-a186-8394dad23cad">
   <producedTypes>
     <objectType typeId="91e01ac8-db07-41cb-8974-daedc73b3572" valueTypeId="bae78258-4305-477d-956e-211464b6d713"/>
     <refType typeId="c5e52a8e-663f-4bc3-9af0-4ffa1d7c601c" valueTypeId="63cf2f0e-4ece-4021-9361-068fff884ef5"/>
@@ -60,6 +60,48 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cba40338-0b3f-47af-b0d8-7578258e3fce">
+    <name>КачествоНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КачествоНоменклатуры</types>
+    </type>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.КачествоНоменклатуры.EnumValue.ОбычноеКачество</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9e180ce-e8a1-4318-b018-39c5659e0ff5">
+    <name>ПроисхождениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Происхождение номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПроисхождениеНоменклатуры</types>
+    </type>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПроисхождениеНоменклатуры.EnumValue.Отечественный</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4802a46-ff5e-478e-8ccd-b1d43ca69c4a">
+    <name>ОсновнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная скидка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Скидка</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

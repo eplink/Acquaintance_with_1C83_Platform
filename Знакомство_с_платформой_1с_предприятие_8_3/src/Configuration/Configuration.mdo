@@ -45,5 +45,8 @@
   <catalogs>Catalog.Учреждения</catalogs>
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Скидка</catalogs>
   <enums>Enum.ВидыПриемаНаРаботу</enums>
+  <enums>Enum.КачествоНоменклатуры</enums>
+  <enums>Enum.ПроисхождениеНоменклатуры</enums>
 </mdclass:Configuration>

@@ -72,6 +72,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="957e26c0-8b4a-41bb-a0f2-1cd7cd0e8143">
     <name>ИНН</name>
@@ -110,6 +111,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b096d8f-05b7-410b-86d8-35dee5c68efd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

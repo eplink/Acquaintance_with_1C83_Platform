@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d90a5e31-4f03-4181-b7e3-f15dcbb10a76">
+  <producedTypes>
+    <refType typeId="5cbdbdf1-e50d-480c-8ad6-ef33a8c40ce3" valueTypeId="73a6e21f-867d-4e15-84d5-e1e8426a3e6e"/>
+    <listType typeId="060b3e46-fa8b-4864-92dd-48bc93d44e5d" valueTypeId="f8ffe42b-7fa0-47c9-825c-f39d0b85fb3a"/>
+    <managerType typeId="46c5cbcc-1353-479e-bce6-adbb7c6c48b2" valueTypeId="07735df5-a9ee-49e4-99e6-f38b2ca8effc"/>
+  </producedTypes>
+  <name>ПроисхождениеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Происхождение номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3113f170-fc49-476c-8367-73458bc73a5d">
+    <name>Отечественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отечественный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a59fa9fe-10af-40d4-9235-be633cc296c6">
+    <name>Импортный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импортный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7216e6c9-67bc-481b-a01f-4153fe44701b">
+    <name>Китайский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Китайский</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
