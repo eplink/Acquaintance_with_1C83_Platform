@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7b2027c-4e81-4a5c-9597-c538e5c008cf">
+  <producedTypes>
+    <objectType typeId="88d221a5-c8c6-4b16-a1ac-568b7cbac15a" valueTypeId="6a2af9f7-25bd-41b8-92bf-9b3cb7623e0d"/>
+    <refType typeId="ab273870-6a4d-46ce-9e51-c8e7c0ad3893" valueTypeId="482a1a30-939c-4b24-b100-590491f1c9e5"/>
+    <selectionType typeId="5f582f5d-53d8-432e-a701-b82870f01371" valueTypeId="ed622634-3f27-4e5b-862d-8b579dda3859"/>
+    <listType typeId="92eccd5c-8229-45f6-b0cc-6925ebb81f37" valueTypeId="808ebf17-b800-4491-83b4-7b4e8867038e"/>
+    <managerType typeId="266264ff-7242-4306-92e3-77de9678defa" valueTypeId="68ec43f4-8cd1-42e5-80d7-01314bf90a8c"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение компании</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Подразделения компании</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
